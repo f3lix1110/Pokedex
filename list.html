@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/c6dd977dde.js" crossorigin="anonymous"></script>
+
+
+    <!--Icono de la pagina en la pestaña-->
+    <link rel="icon" href="img/pokeball.png">
+
+    <title>Pokedex</title>
+
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <header class="header" id="header">
+
+        <nav class="navbar">
+            <a href="index.html" class="logo link"><img class="logo-img" src="img/pokeball.png"></i></a>
+
+            <button class="nav-toggle" aria-label="Abrir menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <ul class="menu">
+                <li class="item-menu">
+                    <a href="list.html" class="link-menu link">List Of Pokemons</a>
+                </li>
+                <li class="item-menu">
+                    <a href="about.html" class="link-menu link">More About Pokemon</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!--NAVBAR-END-->
+
+    <!--POKEDEX-->
+
+    <h3>POKEDEX</h3>
+
+    <div class="wrapper">
+        <div class="card_list " id='pokemon_1'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class="card_list" id='pokemon_2'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class="card_list" id='pokemon_3'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class="card_list" id='pokemon_4'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class="card_list" id='pokemon_5'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class="card_list" id='pokemon_6'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class="card_list" id='pokemon_7'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class="card_list" id='pokemon_8'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class="card_list" id='pokemon_9'><img class="img-welcome" src="img/Pokemon.jpg"></div>
+        <div class=wrapper" id="wrapper"></div>
+    </div>
+
+    <div class="wrapper">
+        <button class="button_list button_list_inactive" id="previousbutton">Previous</button>
+        <button class="button_list" id="nextbutton">Next</button>
+    </div>
+
+    <!--POKEDEX-END-->
+
+    <!--No alcance a terminar el footer u.u-->
+    <!-- 
+    <footer class="footer">
+       
+        <div class="r-footer">
+            <img class="logo-img-footer" src="Img/pokeball.png" alt="">
+  
+        <ul class="box">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Web</a></li>
+        <li><a href="#">Youtube</a></li>
+        </ul>
+
+        </div>
+       
+     <h2>
+        <div class="b-footer">
+        <p>All rights reserved by ©CompanyName 2020 </p>
+        </div>
+    </h2>
+        </footer> -->
+
+    <script src="js/pokeApi_list.js"></script>
+</body>
+
+</html>
